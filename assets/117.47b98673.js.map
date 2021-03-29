@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./index/index.marko"],"names":["window","$initComponents"],"mappings":"yBACAA,OAAOC,iBAAmBA,kB","file":"117.47b98673.js","sourcesContent":["import \"./index.marko?hydrate\";\nwindow.$initComponents && $initComponents();\n"],"sourceRoot":""}
