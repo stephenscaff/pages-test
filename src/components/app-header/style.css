@@ -1,0 +1,7 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  height: 3em;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}

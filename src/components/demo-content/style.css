@@ -1,0 +1,8 @@
+.demo-content {
+  padding: 4em 0;
+}
+
+.demo-content__grid {
+  max-width: 80%;
+  margin: 0 auto;
+}

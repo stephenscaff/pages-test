@@ -1,0 +1,19 @@
+{
+  "name": "marko-create-2",
+  "description": "The default Marko starter app",
+  "version": "1.0.0",
+  "dependencies": {
+    "marko": "^5"
+  },
+  "devDependencies": {
+    "@marko/build": "^4",
+    "@marko/serve": "^4"
+  },
+  "private": true,
+  "scripts": {
+    "build": "marko-build ./src/pages",
+    "static": "NODE_ENV=production marko-build ./src/pages --static",
+    "dev": "marko-serve ./src/pages",
+    "start": "NODE_ENV=production node ./build/index.js"
+  }
+}
